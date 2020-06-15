@@ -6,7 +6,7 @@
 
 ## Description
 
-
+With all of the distractions of modern life, it's easy to forget the many things we have to do throughout the day. This site will help users keep track of their daily tasks by organizing them in a list and displaying that list on the page. Users can mark tasks as "Complete" when they are finished and remove completed tasks from the list.
 
 ## Specs
 
@@ -27,16 +27,18 @@ Sample Output: Tasks marked "Done" are removed from the to-do list
 To use this site:
 
 1. Open your preferred browser.
-2. Navigate to https://jkbutserious.github.io/mr-robogers-neighborhood.
-3. In the text field, enter a number. Note: Non-numerical characters will not be accepted by the input field.
+2. Navigate to https://jkbutserious.github.io/to-do-list.
+3. In the text field, enter a brief description for your task.
 4. Click Submit.
+5. To mark a task "Complete", enter the ID of the completed task in the second text field and click Mark Complete.
+6. To remove completed tasks, click Remove completed tasks.
 
 You will receive output in the form of a range of numbers and strings.
 
 To contribute to this project:
 
 1. Open your preferred browser.
-2. Navigate to https://github.com/jkbutserious/mr-robogers-neighborhood.
+2. Navigate to https://github.com/jkbutserious/to-do-list.
 3. Log into or sign up for your GitHub account.
 4. Click the **Fork** button to copy the repository and all source code.
 5. From your forked repository, you can download or clone the repository, by clicking the **Clone or download** button.
@@ -52,7 +54,7 @@ To contribute to this project:
 ## Known Bugs
 
 **Initial Release**
-* The point of Mr. Roboger's speech bubble does not display correctly in low-width viewports
+* No known bugs
 
 ## Support and contact details
 
