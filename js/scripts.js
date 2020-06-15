@@ -42,8 +42,6 @@ function Task(taskName, complete) {
 
 let list1 = new ToDoList();
 
-
-
 // User Interface Logic
 
 $(document).ready(function() {
@@ -55,7 +53,6 @@ $(document).ready(function() {
     $("#output").empty();
 
     for (let i = 0; i < list1.tasks.length; i++) {
-      // let test = list1.tasks[i].taskName;
       if(list1.tasks[i]) {
         $("#output").append("<li>" + list1.tasks[i].taskName + " ID: " + list1.tasks[i].id + "</li>");
       }
@@ -70,7 +67,6 @@ $(document).ready(function() {
     $("#output").empty();
 
     for (let i = 0; i < list1.tasks.length; i++) {
-      // let test = list1.tasks[i].taskName;
       if(list1.tasks[i]) {
         $("#output").append("<li>" + list1.tasks[i].taskName + " ID: " + list1.tasks[i].id + "</li>");
       }
